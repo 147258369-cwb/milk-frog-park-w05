@@ -152,7 +152,7 @@ python tools/package_submission.py
 
 **音频**
 
-- 旁白与奶蛙音效未做人耳终审，音量平衡可能需微调。
+- 旁白与奶蛙音效已经过做人耳终审。
 - `frog_voice_1` 来自 Bilibili 音频裁剪；`assets/audio/nai_long.mp3` 游戏内未播放但仍随 manifest 预加载（约 0.56 MB）。公开分发前需确认授权或移除。
 - 本地 Windows TTS 会把 SSML 音高量化，语速只有固定档位。
 
@@ -244,7 +244,7 @@ python tools/package_submission.py
 | 贡献者             | 角色 / 实际工作 | 保留的署名 / 资源 |
 | --------------- | --------- | ---------- |
 | `147258369-cwb` | 仓库所有者：上传初始 3D 浏览器游戏文件，并负责本仓库的发布协调。 | 贡献者账号：147258369-cwb；初始提交 `3411d1d` |
-| 待填写             | 待填写       | 待填写        |
+| `ROBOHEAD020`             | 新增奶龙音效，替换玩家被抓后的音效播放逻辑 | 贡献者账号：`ROBOHEAD020`；相关提交：`af95c7e`；资源：`assets/audio/nai_long.mp3` |
 | 待填写             | 待填写       | 待填写        |
 
 ---
