@@ -94,7 +94,7 @@ node tools/channel/audit.mjs --shots=1
 
 | 用途                 | 地址                                                  | 备注                              |
 | ------------------ | --------------------------------------------------- | ------------------------------- |
-| 线上试玩（GitHub Pages） | https://147258369-cwb.github.io/milk-frog-park-w05/ | 尚未发布                            |
+| 线上试玩（GitHub Pages） | https://147258369-cwb.github.io/milk-frog-park-w05/ | 已部署（仍建议实机确认免登录可玩）                            |
 | 本地试玩               | http://127.0.0.1:8000/                              | 由 `serve.py` 提供                 |
 | 源码仓库               | https://github.com/147258369-cwb/milk-frog-park-w05 | 旧名 `starfall-salvage-w05` 自动重定向 |
 
