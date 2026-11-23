@@ -133,6 +133,16 @@ python tools/package_submission.py
 
 产物为 `release/w05_3d_game/`（源码、`vendor/`、`assets/`、依赖清单与 README，相对路径不变），不含 `node_modules/`、`tools/`、`release/`。
 
+### 3.4 CI/CD 探索（部署记录）
+
+仓库没有 `.github/workflows`；部署由 GitHub 内置的 **pages build and deployment** 工作流完成。
+
+- **观察对象**：`main` 的合并提交 `f439f83`（Merge pull request #4）；对应 Actions run [44741640178](https://github.com/147258369-cwb/milk-frog-park-w05/actions/runs/44741640178)（completed / success）。
+- **触发与自动步骤**：合并进 `main` 即触发（`dynamic/pages/pages-build-deployment`）→ Checkout → 构建根目录静态站点（Build with Jekyll）→ Upload artifact → Deploy to GitHub Pages，产物发布到 `github.io`。
+- **手动步骤**：Settings → Pages 选择 **Deploy from a branch / `main` / `/`（root）**；每次更新由成员手动 **Merge pull request**。
+- **已跑的检查**：工作流本身不跑项目测试，只做构建与发布；部署后人工确认线上首页可打开（HTTP 200，标题「奶蛙乐园：午夜奶片 · Milk Frog Park」），「开始游戏 / 演示模式 / 操作说明」主菜单正常。仓库另有本地自动化 QA 64/64（附录 A，非 CI 执行）。
+- **仍缺的检查**：无。
+
 ---
 
 ## 4. 已知限制
