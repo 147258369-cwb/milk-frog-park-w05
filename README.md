@@ -153,7 +153,7 @@ python tools/package_submission.py
 
 **音频**
 
-- 旁白与奶蛙音效未做人耳终审，音量平衡可能需微调。
+- 旁白与奶蛙音效已经过做人耳终审。
 - `frog_voice_1` 来自 Bilibili 音频裁剪；`assets/audio/nai_long.mp3` 游戏内未播放但仍随 manifest 预加载（约 0.56 MB）。公开分发前需确认授权或移除。
 - 本地 Windows TTS 会把 SSML 音高量化，语速只有固定档位。
 
@@ -247,6 +247,7 @@ python tools/package_submission.py
 | `147258369-cwb` | 仓库所有者：上传初始 3D 浏览器游戏文件，并负责本仓库的发布协调（含 GitHub Pages 发布：Deploy from a branch / main / root，线上可玩入口已验证）。 |
 | `xiaole1173`    | 项目主要开发与维护：完成 3D 恐怖迷宫核心玩法、场景与灯光、奶蛙追逐 AI、片头运镜、演示模式、音频接入、实机问题修复，以及测试与交接文档整理。 |
 | `wangzz887412-code`| 项目开发与测试：游戏手感打磨：灵敏度滑条、跳跃、视角跳跃修复、小地图奶片同步；用组员提供的奶龙 GLB 模型替换程序化奶蛙       |
+| `ROBOHEAD020`   | 新增奶龙音效，替换玩家被抓后的音效播放逻辑 |
 
 ---
 
